@@ -1,0 +1,99 @@
+/* HomePage.css */
+
+.homepage {
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: white;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.search-login {
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  padding: 10px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 4px;
+}
+
+.login-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+.title {
+  text-align: center;
+  font-size: 28px;
+  margin: 20px 0;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+
+.courses {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.course-card {
+  background-color: #1E1E1E;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  width: 300px;
+  margin: 10px;
+  transition: transform 0.3s ease;
+}
+
+.course-card:hover {
+  transform: scale(1.05);
+}
+
+.course-image {
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+}
+
+.course-content {
+  padding: 10px;
+}
+
+.course-content h3 {
+  margin: 10px 0;
+}
+
+.level {
+  color: #4CAF50;
+}
+
+.course-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #4299E1;
+  color: white;
+  cursor: pointer;
+  margin-top: 10px;
+}
